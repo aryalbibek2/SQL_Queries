@@ -1,0 +1,9 @@
+SELECT 
+    Plot,
+    FIRST(FSWStand) AS FSWStand
+FROM 
+    _Trees
+GROUP BY 
+    Plot
+ORDER BY 
+    Plot;
