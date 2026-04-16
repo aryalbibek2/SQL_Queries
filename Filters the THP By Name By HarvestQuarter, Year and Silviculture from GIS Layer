@@ -1,0 +1,15 @@
+"THP_Name" IN (
+    'Naturdays',
+    'BigClark',
+    'McDuffelbag',
+    'Mettick 23',
+    'Crazy Train Forest Resilience Exemption',
+    'Goddard Boardman 2020'
+)
+AND (
+    "HY" = '2025'
+    OR
+    ("HY" = '2024' AND "HQ" <> '1')
+)
+AND "Silv" <> 'NOCUT'
+AND "HQ" NOT IN ('NoO', 'NoC')
